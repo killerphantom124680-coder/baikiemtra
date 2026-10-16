@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Furnive - nội thất hiện đại, tiện nghi cho không gian sống.">
+  <title>Furnive - Best Sellers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="header-inner">
+      <nav class="main-nav" aria-label="Menu chính">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#shop">Shop</a>
+        <a class="nav-link" href="#blog">Blog</a>
+        <a class="nav-link" href="#category">Category</a>
+        <a class="nav-link" href="#about">About</a>
+      </nav>
+      <a class="brand" href="#home" aria-label="Furnive - Trang chủ">
+        <img src="img/logo.png" alt="Furnive">
+      </a>
+      <a class="contact-button" href="#contact-form">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Khong gian noi that Furnive">
+      <a href="#shop" class="hero-link" aria-label="Khám phá bộ suu top noi that">
+        <img src="img/banner.jpg" alt="Phòng khách hiện đại với ghế sofa, ghế thư giãn và đèn đứng">
+      </a>
+    </section>
+
+    <section class="benefits container" aria-label="Lợi ích mua sắm">
+      <div class="benefit-item">
+        <img src="img/quality.png" alt="" aria-hidden="true">
+        <span>High Quality</span>
+      </div>
+      <div class="benefit-item">
+        <img src="img/protection.png" alt="" aria-hidden="true">
+        <span>Warranty Protection</span>
+      </div>
+      <div class="benefit-item">
+        <img src="img/free-ship.png" alt="" aria-hidden="true">
+        <span>Free Shipping</span>
+      </div>
+      <div class="benefit-item">
+        <img src="img/support.png" alt="" aria-hidden="true">
+        <span>24 / 7 Support</span>
+      </div>
+    </section>
+
+    <section class="products-section container" id="shop">
+      <div class="section-heading" id="category">
+        <h1><a href="#shop">Best Sellers</a></h1>
+        <p id="blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image-link" href="#product-oak" aria-label="Xem sản phẩm Oak Base">
+            <img src="img/product1.jpg" alt="Bàn ghế ăn Oak Base trong căn phòng sáng màu">
+          </a>
+          <h2><a href="#product-oak" id="product-oak">Oak Base</a></h2>
+          <p class="product-description">Stylish cafe chair</p>
+          <p class="product-price">$100</p>
+        </article>
+        <article class="product-card">
+          <a class="product-image-link" href="#product-wall" aria-label="Xem sản phẩm Wall Light">
+            <img src="img/product2.jpg" alt="Đèn đứng Wall Light thiết kế tối giản">
+          </a>
+          <h2><a href="#product-wall" id="product-wall">Wall Light</a></h2>
+          <p class="product-description">Stylish cafe chair</p>
+          <p class="product-price">$110</p>
+        </article>
+        <article class="product-card">
+          <a class="product-image-link" href="#product-gretchen" aria-label="Xem sản phẩm Gretchen Single">
+            <img src="img/product3.jpg" alt="Quạt trần Gretchen Single trong không gian sáng">
+          </a>
+          <h2><a href="#product-gretchen" id="product-gretchen">Gretchen Single</a></h2>
+          <p class="product-description">Stylish cafe chair</p>
+          <p class="product-price">$220</p>
+        </article>
+        <article class="product-card">
+          <a class="product-image-link" href="#product-zmellow" aria-label="Xem sản phẩm Zmellow">
+            <img src="img/product4.jpg" alt="Bộ chăn ga Zmellow màu hồng nhạt">
+          </a>
+          <h2><a href="#product-zmellow" id="product-zmellow">Zmellow</a></h2>
+          <p class="product-description">Stylish cafe chair</p>
+          <p class="product-price">$240</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container" id="about">
+    <a href="#home" class="footer-brand" aria-label="Furnive - về đầu trang">
+      <img src="img/logo2.png" alt="Furnive">
+    </a>
+    <form class="subscribe-form" id="contact-form" novalidate>
+      <label class="visually-hidden" for="email">Email address</label>
+      <input type="email" id="email" name="email" placeholder="Enter email address..." aria-describedby="form-message">
+      <button type="submit">Contact Us</button>
+      <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
